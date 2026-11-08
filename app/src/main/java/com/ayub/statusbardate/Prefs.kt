@@ -4,8 +4,8 @@ import android.content.Context
 import android.graphics.Color
 
 object Prefs {
-    val FORMAT_LABELS = arrayOf("8 Nov", "Sun, 8 Nov", "8 November", "৮ নভেম্বর (Bangla)")
-    val FORMAT_PATTERNS = arrayOf("d MMM", "EEE, d MMM", "d MMMM", "d MMMM")
+    val FORMAT_LABELS = arrayOf("Sun Nov 8", "8 Nov", "Sun, 8 Nov", "8 November", "৮ নভেম্বর (Bangla)")
+    val FORMAT_PATTERNS = arrayOf("EEE MMM d", "d MMM", "EEE, d MMM", "d MMMM", "d MMMM")
     val COLOR_NAMES = arrayOf("White", "Black", "Yellow", "Cyan", "Green")
     val COLOR_VALUES = intArrayOf(Color.WHITE, Color.BLACK, Color.YELLOW, Color.CYAN, Color.GREEN)
 
