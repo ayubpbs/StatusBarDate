@@ -79,7 +79,7 @@ class OverlayService : Service() {
     private fun apply() {
         val view = tv ?: return
         val idx = Prefs.format(this)
-        val locale = if (idx == 3) Locale("bn", "BD") else Locale.ENGLISH
+        val locale = if (idx == 4) Locale("bn", "BD") else Locale.ENGLISH
         view.text = SimpleDateFormat(Prefs.FORMAT_PATTERNS[idx], locale).format(Date())
         view.setTextSize(TypedValue.COMPLEX_UNIT_SP, Prefs.sizeSp(this).toFloat())
         view.setTextColor(Prefs.COLOR_VALUES[Prefs.color(this)])
